@@ -261,7 +261,14 @@ function create_config( )
 			"keep",
 			"weather",
 			"welcome",
-			"rmsg"
+			"rmsg",
+			 	"voice",
+			"Sticker1",
+			"bot-lock",
+			"azan",
+			"cleandelete",
+			"ping",
+			"t2g"		
     },
     sudo_users = {67516785,259096798,180498474,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
