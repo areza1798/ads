@@ -12,7 +12,7 @@ local function run(msg, matches)
 return {
   usage = '',
   patterns = {
-    "^(gif) (.*)$",
+    "^([!#/]gif) (.*)$",
 	
   },
   run = run
