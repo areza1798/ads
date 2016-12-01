@@ -1,9 +1,4 @@
---[[
-Convertor TEXT to GIF
-writed Via @ubuntu_14
-in channel : @UB_CH
-@ValtMan
-]]
+
 
 local function run(msg, matches)
   local text = URL.escape(matches[2])
