@@ -271,3 +271,4 @@ screen ./launch.sh
 !plugins + plugin name
 !plugins - plugin name
 ```
+#all powered by: parsa ghafoori](https://telegram.me/parsaghafoori)
