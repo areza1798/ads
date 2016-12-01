@@ -9,10 +9,9 @@ end
   description = "",
   usage = "",
   patterns = {
-  "^([Pp]ing)$"
+  "^(حاظر)$"
     },
   run = run
 }
 end
 
---@SPIRAN_CHANNEL
