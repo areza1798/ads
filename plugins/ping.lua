@@ -9,7 +9,7 @@ end
   description = "",
   usage = "",
   patterns = {
-  "^(حاظر)$"
+  "^(ping)$"
     },
   run = run
 }
