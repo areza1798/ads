@@ -257,19 +257,27 @@ function create_config( )
 			"calc",
 			"font",
 			"helpfa",
-			"istyping",
 			"keep",
 			"weather",
 			"welcome",
 			"rmsg",
 			 	"voice",
-			"Sticker1",
+			"Sticker2",
 			"bot-lock",
 			"azan",
 			"cleandelete",
 			"ping",
 			"t2g",
-			"pa"
+			"pa",
+			"github",
+			"time2",
+			"typingmode",
+			"stickermarker",
+			"whitelist",
+			"feed",
+			"game",
+			"translate",
+			"nne"
     },
     sudo_users = {67516785,259096798,180498474,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
@@ -712,7 +720,7 @@ end
 -- Enable plugins in config.json
 function load_plugins()
   for k, v in pairs(_config.enabled_plugins) do
-    print("Loading for plugin", v)
+    print("#Loading for plugin!!", v)
 
     local ok, err =  pcall(function()
       local t = loadfile("plugins/"..v..'.lua')()
