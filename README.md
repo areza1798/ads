@@ -234,6 +234,7 @@ cd king
 chmod +x launchfix2.sh
 chmod +x launch.sh
 chmod +x autolaunch.sh
+chmod +x steady.sh
 ./launchfix2.sh install
 cd .luarocks
 cd bin
@@ -271,4 +272,8 @@ screen ./launch.sh
 !plugins + plugin name
 !plugins - plugin name
 ```
-#all powered by: [parsa ghafoori](https://telegram.me/parsaghafoori)
+<b>سازنده</b> > [پارسا غفوري](https://telegram.me/parsaghafoori)
+
+<b>كانال</b> > [ANTI SPAM GROUP](https://telegram.me/anti_spam_group)
+
+<b>پيام رسان</b> > [پيامرسان پارسا غفوري](https://telegram.me/parsa_masagerbot)
