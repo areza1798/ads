@@ -4,7 +4,7 @@ local function run(msg, matches)
   if matches[1] == 'office' then
     if is_sudo(msg) then
     -- send_document(get_receiver(msg), "/home/Seed/axs/sudo.webp", ok_cb, false)
-      return "شما صاحب ربات WaderTG هستید"
+      return "شما صاحب ربات KING هستید"
     elseif is_owner(msg) then
    --send_document(get_receiver(msg), "/home/Seed/axs/owner.webp", ok_cb, false)
       return "شما مدیر اصلی گروه هستید"
