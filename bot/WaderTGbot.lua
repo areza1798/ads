@@ -255,7 +255,7 @@ function create_config( )
 			"addsudo",
 			"aparat",
 			"calc",
-			"font",
+			"font1",
 			"helpfa",
 			"keep",
 			"weather",
