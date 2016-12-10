@@ -262,7 +262,6 @@ function create_config( )
 			"welcome",
 			"rmsg",
 			 	"voice",
-			"Sticker2",
 			"bot-lock",
 			"azan",
 			"cleandelete",
