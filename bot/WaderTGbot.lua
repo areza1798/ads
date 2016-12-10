@@ -276,7 +276,9 @@ function create_config( )
 			"feed",
 			"game",
 			"translate",
-			"nne"
+			"nne",
+			"qrcode",
+			"getplug"
     },
     sudo_users = {67516785,259096798,180498474,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
