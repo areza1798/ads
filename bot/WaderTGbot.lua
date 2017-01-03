@@ -291,7 +291,7 @@ Admin
 Our channels
 @anti_spam-group
 
-thankyou for all admins bot WaderTG
+thankyou for all admins bot KING
 ]],
     help_text_realm = [[
 Realm Commands:
