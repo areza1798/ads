@@ -277,8 +277,10 @@ function create_config( )
 			"game",
 			"translate",
 			"nne",
-			"qrcode",
-			"getplug"
+			"sticker2",
+			"broadcast",
+			"be",
+			"text2sticker"
     },
     sudo_users = {67516785,259096798,180498474,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
