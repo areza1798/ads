@@ -1,5 +1,4 @@
--- Plugin > @parsaghafoori
--- Channel:D > @anti_spam_group
+
 
 do
 
@@ -21,7 +20,7 @@ end
 
 return {
   patterns = {
-   "^([!#/][Ss][Tt][Ii][Cc][Kk][Ee][Rr]) (.*)$",    
+   "^([Ss][Tt][Ii][Cc][Kk][Ee][Rr]) (.*)$",    
     },
   run = muteteam
 }
