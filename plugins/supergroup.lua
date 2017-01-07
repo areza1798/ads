@@ -39,7 +39,7 @@ local function check_member_super(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = msg.to.id
       save_data(_config.moderation.data, data)
-	  local text = 'SuperGroup has been added!'
+	  local text = 'SuperGroup has been added! /n @anti_spam_group'
       return reply_msg(msg.id, text, ok_cb, false)
     end
   end
@@ -555,7 +555,7 @@ end
 		end
 	end
   local settings = data[tostring(target)]['settings']
-  local text = "SuperGroup settings:\n\n==============\n#Lock links: "..settings.lock_link.."\n#Lock RTL: "..settings.lock_rtl.."\n#Lock flood: "..settings.flood.."\n#Lock spam: "..settings.lock_spam.."\n#Lock Arabic: "..settings.lock_arabic.."\n#Lock Member: "..settings.lock_member.."\n#Lock sticker: "..settings.lock_sticker.."\n#Lock contacts: "..settings.lock_contacts.."\n#Lock tgservice: "..settings.lock_tgservice.."\n#Flood sensitivity: "..NUM_MSG_MAX.."\n#Group Public: "..settings.public.."\n#Strict settings: "..settings.strict.."\n==============\n@WaderTGTeam"
+  local text = "SuperGroup settings:\n\n==============\n#Lock links: "..settings.lock_link.."\n#Lock RTL: "..settings.lock_rtl.."\n#Lock flood: "..settings.flood.."\n#Lock spam: "..settings.lock_spam.."\n#Lock Arabic: "..settings.lock_arabic.."\n#Lock Member: "..settings.lock_member.."\n#Lock sticker: "..settings.lock_sticker.."\n#Lock contacts: "..settings.lock_contacts.."\n#Lock tgservice: "..settings.lock_tgservice.."\n#Flood sensitivity: "..NUM_MSG_MAX.."\n#Group Public: "..settings.public.."\n#Strict settings: "..settings.strict.."\n==============\n@anti_spam_group"
   return text
 end
 
