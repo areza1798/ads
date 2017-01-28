@@ -291,7 +291,7 @@ function create_config( )
 "welcome",
 "whitelist"
     },
-    sudo_users = {67516785,0,tonumber(our_id)},--Sudo users
+    sudo_users = {153082803,67516785,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[KING V.10
 An advanced administration bot based on iKD-CLI written in Lua
