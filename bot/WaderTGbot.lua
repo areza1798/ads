@@ -233,7 +233,6 @@ function create_config( )
 "clash_of_clan",
 "cleandelete",
 "cleaner",
-"crector",
 "expire",
 "fal",
 "feed",
